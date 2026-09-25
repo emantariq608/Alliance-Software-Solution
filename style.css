@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+   
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+} 
+
+.logo img {
+    height: 80px;
+    width: 75px;
+}
+
+.logo h1 {
+    font-size: 22px;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: #05C2FA;
+    margin-top: 8px;
+} 
+
+.logo h3 {
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 500; 
+    color: #C7D1DB;
+    margin-top: 2px;
+}
+
+.intro h3 {
+    color: #59BFDB;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.intro h1 {
+    color: #F5FAFF;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.intro p {
+    color: #F7F7F7;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto 0 auto;
+}
+.link-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    border-radius: 14px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease;
+}
+
+.link-box.active {
+    background-color: #158FFC;
+    border: 1px solid #38bdf8;
+    box-shadow: 0 4px 16px rgba(0, 112, 243, 0.4);
+}
+
+.link-box.active .icon {
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #0070f3;
+    flex-shrink: 0;
+}
+.link-box.active .link-content {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 14px;
+}
+
+
+.link-box.active .link-content h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+.link-box.active .link-content p {
+    font-size: 13px;
+    color: #dbeaff;
+    margin-top: 2px;
+    text-decoration: underline;
+}
+
+.link-box.active .link-content p:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.link-box.active .link-content p:active {
+    text-decoration: underline;
+    color: #38bdf8; 
+}
+.link-box.active .arrow {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    border-radius: 14px;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #0b131e;
+    border: 1px solid #1a2332;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+
+.link:hover {
+    background-color: #111a28;
+    border-color: #253347;
+}
+
+
+.link .icon {
+    width: 44px;
+    height: 44px;
+    background-color: #141d2b;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #00d2ff;
+    flex-shrink: 0;
+}
+
+
+.link .content {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 14px;
+}
+
+.link .content h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
+
+.link .content p {
+    font-size: 13px;
+    color: #8fa0b5;
+    margin-top: 2px;
+    text-decoration: underline;
+
+}
+
+.link .content p:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.link .content p:active {
+    text-decoration: underline;
+    color: #38bdf8; 
+}
+.link .arrow {
+    font-size: 18px;
+    color: #8fa0b5;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.footer {
+    margin-top: 17px;
+
+    text-align: center;
+}
+
+.footer .copy{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 6px;
+    letter-spacing: 0.2px;
+}
+
+.footer .scan {
+    font-size: 13px;
+    color: #8fa0b5;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+} 
+
